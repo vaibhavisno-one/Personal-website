@@ -1,6 +1,6 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+// import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
+import ChatApp from "@/assets/images/Chat_app (1).png";
+import AppleImage from "@/assets/images/Apple_website.png";
 import Image from "next/image";
 import CheckCircle from "@/assets/icons/check-circle.svg";
 import ArrowUpRight from "@/assets/icons/arrow-up-right.svg"; 
@@ -18,7 +18,7 @@ const portfolioProjects = [
       { title: "Increased mobile traffic by 35%" },
     ],
     link: "",
-    image: darkSaasLandingPage,
+    image: ChatApp,
   },
   {
     type: "Innovative Co",
@@ -30,7 +30,7 @@ const portfolioProjects = [
       { title: "Increased brand awareness by 15%" },
     ],
     link: "",
-    image: lightSaasLandingPage,
+    image: AppleImage,
   },
   {
     type: "Quantum Dynamics",
@@ -42,7 +42,7 @@ const portfolioProjects = [
       { title: "Increased mobile traffic by 35%" },
     ],
     link: "",
-    image: aiStartupLandingPage,
+    image: AppleImage,
   },
 ];
 
@@ -105,7 +105,7 @@ export const ProjectsSection = () => {
                 </div>
                 <div className="relative">
                   <Image src= {projects.image} alt ={projects.title} 
-                  className="mt-8 -mb-4 md:-mb-0 lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none " />
+                  className="mt-8 -mb-4 md:-mb-0 lg:mt-0 lg:absolute rounded-xl lg:h-full lg:w-auto lg:max-w-none " />
                 </div>
 
               </div>
