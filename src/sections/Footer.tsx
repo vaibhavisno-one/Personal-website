@@ -19,7 +19,7 @@ export const Footer = () => {
             Twitter
           </Link>
           <Link
-            href="https://github.com"
+            href="https://github.com/vaibhavisno-one"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-accentBlue"
@@ -35,7 +35,7 @@ export const Footer = () => {
             Instagram
           </Link>
           <Link
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/vaibhav-kumar-b2a1662b6/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-accentBlue"

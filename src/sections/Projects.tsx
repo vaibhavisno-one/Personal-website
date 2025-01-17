@@ -1,6 +1,7 @@
 // Import statements
 import ChatApp from "@/assets/images/Chat_app (1).png";
 import AppleImage from "@/assets/images/Apple_website.png";
+import Theme from "@/assets/images/theme.png";
 import Image from "next/image";
 import CheckCircle from "@/assets/icons/check-circle.svg";
 import ArrowUpRight from "@/assets/icons/arrow-up-right.svg"; 
@@ -11,8 +12,8 @@ import { Card } from "@/components/Card";
 // Portfolio project data
 const portfolioProjects = [
   {
-    type: "Acme Corp",
-    year: "2022",
+    type: " Full Stack App",
+    year: "2025",
     title: "Wave-Realtime Chat App",
     results: [
       { title: "Enhanced user experience by 40%" },
@@ -23,8 +24,8 @@ const portfolioProjects = [
     image: ChatApp,
   },
   {
-    type: "Innovative Co",
-    year: "2021",
+    type: "3D Model",
+    year: "2024",
     title: "Apple IPhone 15 Landing Page ",
     results: [
       { title: "Boosted sales by 20%" },
@@ -35,16 +36,16 @@ const portfolioProjects = [
     image: AppleImage,
   },
   {
-    type: "Quantum Dynamics",
-    year: "2023",
-    title: "Restaurant Chat Bot",
+    type: "Creative Design",
+    year: "2024",
+    title: "Theme Switcher Landing Page",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
     link: "",
-    image: AppleImage,
+    image: Theme,
   },
 ];
 
