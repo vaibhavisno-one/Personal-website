@@ -74,7 +74,7 @@ export const HeroSection = () => {
         </div>
         <div className='max-w-lg mx-auto'>
           <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>Building Exceptional User Experience</h1>
-          <p className='mt-4 text-center text-white/60 md:text-lg'>Type description here</p>
+          <p className='mt-4 text-center text-white/60 md:text-lg'>I'm a front-end developer with a passion for creating intuitive and engaging user interfaces.</p>
         </div>
         <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4' >
           <button className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl'>
