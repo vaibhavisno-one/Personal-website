@@ -1,7 +1,7 @@
 // Import statements
 import ChatApp from "@/assets/images/Chat_app (1).png";
 import AppleImage from "@/assets/images/Apple_website.png";
-import Theme from "@/assets/images/theme.png";
+import Movie from "@/assets/images/movie.png";
 import Image from "next/image";
 import CheckCircle from "@/assets/icons/check-circle.svg";
 import ArrowUpRight from "@/assets/icons/arrow-up-right.svg"; 
@@ -20,7 +20,7 @@ const portfolioProjects = [
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "",
+    link: "https://github.com/vaibhavisno-one/Chat_App",
     image: ChatApp,
   },
   {
@@ -32,20 +32,20 @@ const portfolioProjects = [
       { title: "Expanded customer reach by 35%" },
       { title: "Increased brand awareness by 15%" },
     ],
-    link: "",
+    link: "https://github.com/vaibhavisno-one/Apple-clone-3D",
     image: AppleImage,
   },
   {
-    type: "Creative Design",
+    type: "Fullstack App",
     year: "2024",
-    title: "Theme Switcher Landing Page",
+    title: "Movie Rating Website",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "",
-    image: Theme,
+    link: "https://github.com/vaibhavisno-one/Movie-Rating",
+    image: Movie,
   },
 ];
 
